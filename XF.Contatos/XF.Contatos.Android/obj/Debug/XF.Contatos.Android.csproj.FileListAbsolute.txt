@@ -1,0 +1,4 @@
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csprojAssemblyReference.cache
+C:\Users\33531106821\Downloads\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csprojAssemblyReference.cache
+C:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csprojAssemblyReference.cache
+C:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csproj.CoreCompileInputs.cache

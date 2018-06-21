@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿
 using Xamarin.Forms;
 
 namespace XF.Contatos
 {
-	public partial class App : Application
+    public partial class App : Application
 	{
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new XF.Contatos.MainPage();
+			MainPage = new NavigationPage(new XF.Contatos.View.ContatoView());
 		}
 
 		protected override void OnStart ()
