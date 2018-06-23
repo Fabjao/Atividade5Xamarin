@@ -377,23 +377,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\33531106821\\.nuget\\packages\\": {},
+    "C:\\Users\\Fabio\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projeto\\Atividade5Xamarin\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj",
+      "projectUniqueName": "E:\\Projeto\\Atividade5Xamarin\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj",
       "projectName": "XF.Contatos",
-      "projectPath": "C:\\Projeto\\Atividade5Xamarin\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj",
-      "packagesPath": "C:\\Users\\33531106821\\.nuget\\packages\\",
-      "outputPath": "C:\\Projeto\\Atividade5Xamarin\\XF.Contatos\\XF.Contatos\\obj\\",
+      "projectPath": "E:\\Projeto\\Atividade5Xamarin\\XF.Contatos\\XF.Contatos\\XF.Contatos.csproj",
+      "packagesPath": "C:\\Users\\Fabio\\.nuget\\packages\\",
+      "outputPath": "E:\\Projeto\\Atividade5Xamarin\\XF.Contatos\\XF.Contatos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\33531106821\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -401,7 +401,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://vmwwscdes01.cmdo.policiamilitar.sp.gov.br/Pmesp.NuGet/nuget/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

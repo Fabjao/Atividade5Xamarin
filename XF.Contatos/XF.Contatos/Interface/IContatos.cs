@@ -6,6 +6,6 @@ namespace XF.Contatos.Interface
 {
     public interface IContatos
     {
-        ObservableCollection<Contato> BuscaContatos();
+        void BuscaContatos();
     }
 }

@@ -2,8 +2,12 @@
 using Android.Content;
 using Android.Net;
 using Android.Telephony;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Xamarin.Contacts;
 using Xamarin.Forms;
+using XF.Contatos.Droid;
 using XF.Contatos.Interface;
 using XF.Contatos.Model;
 
@@ -12,15 +16,27 @@ namespace XF.Contatos.Droid
 {
     public class Contatos_Android : IContatos
     {
-        public ObservableCollection<Contato> BuscaContatos()
+        void IContatos.BuscaContatos()
         {
-            ObservableCollection<Contato> _contatos = new ObservableCollection<Contato>();
-            _contatos.add(new Contato()
+            var context = MainApplication.CurrentContext as Activity;
+            var book = new AddressBook(context);
+            
+            Task.Run(async () =>
             {
-                Nome ="Fabio",
-                Numero = "12937803"
+                if (await book.RequestPermission())
+                {
+                    IList<Contato> contatos = new List<Contato>();
+                    foreach (Contact contato in book.ToList().OrderBy(c => c.LastName))
+                    {
+                        contatos.Add(new Contato()
+                        {
+                            Nome = contato.FirstName,
+                            Numero = contato.Phones.FirstOrDefault()?.Number
+                        });
+                    }
+                    MessagingCenter.Send<IContatos, IList<Contato>>(this, "contatos", contatos);
+                }
             });
-            return _contatos;
         }
     }
 }

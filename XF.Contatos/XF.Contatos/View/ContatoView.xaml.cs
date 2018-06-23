@@ -24,18 +24,20 @@ namespace XF.Contatos.View
             {
                 _viewContato = new ViewModelContato();
             }
-
-            IContatos contatos = DependencyService.Get<IContatos>();
-            _viewContato.Contatos = contatos.BuscaContatos();
+                        
             BindingContext = _viewContato;
 
         }
 
-        private void listaContatos_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void listaContatos_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var itemSelecionado = e.Item as Contato;
-            DisplayAlert("Contato selecionado",
-                $"Nome: {itemSelecionado.Nome} - {itemSelecionado.Numero}", "OK");
+            
+            if (await DisplayAlert($"Nome: {itemSelecionado.Nome}" , $"Ligar para {itemSelecionado.Numero} ", "Sim", "Não"))
+            {
+                _viewContato.FazerLigacao(itemSelecionado.Numero);
+            }
+
         }
     }
 }
