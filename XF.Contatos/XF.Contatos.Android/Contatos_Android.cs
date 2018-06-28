@@ -3,6 +3,7 @@ using Android.Content;
 using Android.Net;
 using Android.Telephony;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Xamarin.Contacts;
@@ -20,7 +21,7 @@ namespace XF.Contatos.Droid
         {
             var context = MainApplication.CurrentContext as Activity;
             var book = new AddressBook(context);
-            
+
             Task.Run(async () =>
             {
                 if (await book.RequestPermission())
@@ -38,5 +39,6 @@ namespace XF.Contatos.Droid
                 }
             });
         }
+
     }
 }

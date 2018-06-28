@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.Contatos.View.ContatoViewDetalhe"
+             xmlns:local="clr-namespace:XF.Contatos.Converters">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ByteArrayToImageSourceConverter x:Key="ByteArrayToImage"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="camera.jpg" Command="{Binding TakePhotoCommand}" Order="Primary" Priority="1" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50*" />
+            </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="0">
+                <Image x:Name="PhotoView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                       Source="{Binding contatoSelected.Thumbnail, Converter={StaticResource ByteArrayToImage}}" />
+            </StackLayout>
+
+            <StackLayout Grid.Row="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="45*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Column="0" Padding="5">
+                        <Label  Text="{Binding contatoSelected.Nome}" />
+                        <Label  Text="{Binding contatoSelected.Numero}"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1">
+                        <Button Clicked="btnDiscar_Clicked" Text="Discar"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+            <StackLayout Grid.Row="2">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="45*"/>
+                        <ColumnDefinition Width="30*"/>                        
+                    </Grid.ColumnDefinitions>
+                    
+
+                    <StackLayout Grid.Column="0" Padding="5">
+                        <Label Text="Longitude:"></Label>
+                        <Label Text="{Binding coordenada.Longitude}"/>
+                        <Label Text="Latitude"/>
+                        <Label Text="{Binding coordenada.Latitude}"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1">
+                        <Button Clicked="btnMostrarMapa_Clicked" Text="Mapa"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

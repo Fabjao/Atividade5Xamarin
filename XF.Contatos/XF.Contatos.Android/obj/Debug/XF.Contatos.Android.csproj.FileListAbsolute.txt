@@ -1,8 +1,6 @@
 C:\Users\33531106821\Downloads\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csprojAssemblyReference.cache
 C:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csprojAssemblyReference.cache
 C:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csproj.CoreCompileInputs.cache
-E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csprojAssemblyReference.cache
-E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csproj.CoreCompileInputs.cache
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\bin\Debug\XF.Contatos.Android.dll
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\bin\Debug\XF.Contatos.Android.pdb
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\bin\Debug\com.companyname.XF.Contatos.apk
@@ -10,6 +8,8 @@ E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\bin\Debug\com.compa
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\bin\Debug\Xamarin.Mobile.dll
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\bin\Debug\XF.Contatos.dll
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\bin\Debug\XF.Contatos.pdb
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csprojAssemblyReference.cache
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csproj.CoreCompileInputs.cache
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.csproj.CopyComplete
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.dll
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\XF.Contatos.Android.pdb
@@ -21,6 +21,7 @@ E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\res\drawa
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\res\layout\tabbar.xml
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\res\layout\toolbar.xml
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\res\values\styles.xml
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\res\drawable\camera.jpg
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\R.cs.flag
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\R.txt
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\uploadflags.txt
@@ -92,3 +93,9 @@ E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\android\a
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\android\assets\System.Xml.Linq.pdb
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\android\assets\System.Xml.pdb
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\android\assets\XF.Contatos.pdb
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\bin\Debug\XF.Contatos.Android.dll
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\linksrc\XF.Contatos.Android.dll.mdb
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb

@@ -6,6 +6,11 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Content;
+using XF.Contatos.Interface;
+using Xamarin.Media;
+using System.IO;
+using Xamarin.Forms;
 
 namespace XF.Contatos.Droid
 {
@@ -21,6 +26,29 @@ namespace XF.Contatos.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+        }
+
+        protected override async void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            if (resultCode == Result.Ok)
+            {
+                if (requestCode == PhotoConstant.REQUEST_CAMERA)
+                {
+                    MediaFile file = await data.GetMediaFileExtraAsync(this);
+                    var photo = file.GetStream();
+
+                    using (MemoryStream ms = new MemoryStream())
+                    {
+                        await photo.CopyToAsync(ms);
+
+                        ITakePhoto take = DependencyService.Get<ITakePhoto>();
+
+                        MessagingCenter.Send<ITakePhoto, byte[]>(take, "photo", ms.ToArray());
+                    }
+                }
+            }
+
+            base.OnActivityResult(requestCode, resultCode, data);
         }
     }
 }

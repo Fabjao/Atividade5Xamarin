@@ -32,11 +32,16 @@ namespace XF.Contatos.View
         private async void listaContatos_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var itemSelecionado = e.Item as Contato;
-            
-            if (await DisplayAlert($"Nome: {itemSelecionado.Nome}" , $"Ligar para {itemSelecionado.Numero} ", "Sim", "Não"))
+
+            var detalhe = new ContatoViewDetalhe();
+            await Navigation.PushAsync(detalhe);
+
+            var contato = new Contato()
             {
-                _viewContato.FazerLigacao(itemSelecionado.Numero);
-            }
+                Nome = itemSelecionado.Nome,
+                Numero = itemSelecionado.Numero
+            };
+           MessagingCenter.Send<ContatoView, Contato>(this, "ContatoDetalhado", contato);
 
         }
     }

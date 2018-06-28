@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.Contatos.Android", "XF.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.Contatos.iOS", "XF.Contatos\XF.Contatos.iOS\XF.Contatos.iOS.csproj", "{D335C08E-7041-4645-8F6B-F30C92A73E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF.Contatos", "XF.Contatos\XF.Contatos\XF.Contatos.csproj", "{A1BDC325-1140-47F3-8B24-C4CEC4FCF002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XF.Contatos", "XF.Contatos\XF.Contatos\XF.Contatos.csproj", "{A1BDC325-1140-47F3-8B24-C4CEC4FCF002}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

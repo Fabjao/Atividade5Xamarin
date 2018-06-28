@@ -24,12 +24,13 @@ C:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\bin\Debug\netstandard2.0\XF.Contatos.deps.json
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\bin\Debug\netstandard2.0\XF.Contatos.dll
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\bin\Debug\netstandard2.0\XF.Contatos.pdb
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.csprojAssemblyReference.cache
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.csproj.CoreCompileInputs.cache
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.App.xaml.g.cs
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.MainPage.xaml.g.cs
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.View.ContatoView.xaml.g.cs
+E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.View.ContatoViewDetalhe.xaml.g.cs
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.AssemblyInfoInputs.cache
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.AssemblyInfo.cs
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.dll
 E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.pdb
-E:\Projeto\Atividade5Xamarin\XF.Contatos\XF.Contatos\obj\Debug\netstandard2.0\XF.Contatos.csprojAssemblyReference.cache
